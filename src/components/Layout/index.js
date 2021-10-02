@@ -1,28 +1,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import Sidebar   from 'components/Sidebar';
 import Header from 'components/Header';
 import Banner from 'components/Banner';
 import Footer from 'components/Footer';
-
-function Layout({ children }) {
-  return (
-    <>
-      <Header />
-
-      <main>
-        <Banner />
-
-        {children}
-      </main>
-
-      <Footer />
-    </>
-  );
+class LayoutComponent extends React.Component {
+  render(){
+    return (
+      <div className="kkae-container">
+        
+            
+              <Header />
+              
+                {this.props.children}
+              <Sidebar />  
+          <Banner />
+        <Footer />
+      </div>
+    );
+  } 
 }
 
-Layout.propTypes = {
+LayoutComponent.propTypes = {
   children: PropTypes.node,
 };
 
-export default Layout;
+export default LayoutComponent;

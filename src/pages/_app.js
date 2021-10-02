@@ -9,6 +9,9 @@ import { appWithTranslation } from 'utils/with-i18next';
 
 import 'fontsource-metropolis';
 import '@typefaces-pack/typeface-inter';
+import "antd/dist/antd.css";
+import 'assets/css/style.scss';
+import 'assets/css/main.scss';
 
 class Srr extends App {
   render() {
