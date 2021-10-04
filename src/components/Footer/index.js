@@ -6,10 +6,7 @@
 import React from 'react';
 
 function Footer() {
-  return (
-    <footer className="root">
-    </footer>
-  );
+  return <footer className="root"></footer>;
 }
 
 export default Footer;
