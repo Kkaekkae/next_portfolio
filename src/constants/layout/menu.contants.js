@@ -150,17 +150,20 @@ export default [
     ],
   },
   {
-    title: 'Hobby',
-    key: 'hobby',
-    type: 'tmi',
+    title: 'Communication',
+    key: 'comm',
     children: [
       {
-        title: 'Blender',
-        key: 'blender',
+        title: 'Jira',
       },
       {
-        title: 'Unity',
-        key: 'unity',
+        title: 'Figma',
+      },
+      {
+        title: 'XD',
+      },
+      {
+        title: 'Gather',
       },
     ],
   },

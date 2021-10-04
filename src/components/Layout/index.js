@@ -7,7 +7,7 @@ import Footer from 'components/Footer';
 class LayoutComponent extends React.Component {
   render() {
     return (
-      <div className="kkae-container">
+      <div className={'kkae-container ' + this.props.className}>
         <Header />
         <Sidebar />
         {this.props.children}

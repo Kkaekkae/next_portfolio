@@ -3,6 +3,7 @@
 .kkae{
     &-container{
         position:relative;
+        min-height:100vh;
     }
     &-sidebar{
         position:fixed;
@@ -42,6 +43,9 @@
             &-icon{
                 display:block;
                 height:14px;
+                > span{
+                    float:left;
+                }
             }
         }
     }
@@ -50,6 +54,28 @@
             width:960px;
             margin:120px auto;
             text-align:center;
+        }
+    }
+    &-main{
+        &-back{
+            .title{
+            }
+        }
+    }
+}
+.language{
+    &-list{
+        text-align:left;
+        margin-top:50px;
+    }
+    &-item{
+        float:left;
+        width:100%;
+        margin:15px 0;
+        h4{
+            width:100%;
+            float:left;
+            font-size:2em;
         }
     }
 }
